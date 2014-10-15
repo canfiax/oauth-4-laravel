@@ -1,5 +1,5 @@
 {
-    "name": "artdarek/oauth-4-laravel",
+    "name": "canfiax/oauth-4-laravel",
     "type": "library",
     "description": "OAuth Service Provider for Laravel 4",
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3",     
-        "lusitanian/oauth": "~0.3"
+        "canfiax/oauth": "~0.3"
     },
     "require-dev": {
         "illuminate/support": "~4"
@@ -25,5 +25,11 @@
             "Artdarek\\OAuth": "src/"
         }
     },    
-    "minimum-stability": "dev"    
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/canfiax/PHPoAuthLib.git"
+        }
+    ]
 }
